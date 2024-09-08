@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link href="./output.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-faf9d97056c41327a35d365285220691366d234303846338063142641e09f1f1" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"    -->
+  <!-- integrity="sha512-faf9d97056c41327a35d365285220691366d234303846338063142641e09f1f1"    -->
+  <!-- crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+        <nav class="flex justify-between">
+          <h1 class="text-2xl font-bold">FATUMA YUUSUF ABDI</h1>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#" class="hover:text-gray-300">Projects</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+          </ul>
+        </nav>
+        </header>
+        <section class="bg-cover grid grid-cols-2 gap-4 bg-center h-screen items-center justify-center relative">
+          <img src="hero.jpeg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover">
+          <div class="text-center text-black absolute inset-0 flex items-center justify-center p-8">
+            <h1 class="text-4xl font-bold">Hello, I'm FATUMA YUSSUF ABDI</h1><br>
+            <p class="text-lg">Fatuma Yussuf Abdi is a talented computer scientist and software developer with a passion for creating innovative solutions. Her strong technical foundation in computer science has equipped her with the skills to design, develop, and implement robust software applications. Fatuma is dedicated to staying up-to-date with the latest advancements in the field, and her ability to problem-solve and collaborate effectively makes her a valuable asset to any team. With a proven track record of delivering high-quality software projects, Fatuma is committed to contributing to the growth and advancement of the technology industry.</p>
+          </div>
+        </section>
+          <section class="p-4 " >
+            <h2 class="text-2xl font-bold">Skills</h2>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-gray-200 p-4 rounded-lg">
+                <h3 class="text-lg font-bold">Technical Skills</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  </ul>
+              </div>
+              <div class="bg-gray-200 p-4 rounded-lg">
+                <h3 class="text-lg font-bold">Soft Skills</h3>
+                <ul>
+                  <li>Problem-solving</li>
+                  <li>Communication</li>
+                  <li>Teamwork</li>
+                  </ul>
+              </div>
+            </div>
+          </section>
+          <section class="p-4">
+            <h2 class="text-2xl font-bold">Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="project1.webp" alt="Project 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold">MACHINE LEARNING PROJECT</h3>
+                  <p class="text-gray-500"> Developed a machine learning model using a random forest algorithm to predict customer churn based on customer demographic data, usage patterns, and customer support interactions. The model achieved an accuracy of 82% in identifying customers at risk of churning, enabling the company to implement targeted retention strategies.</p>
+                </div>
+              </div>
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="projects2.jpeg" alt="Project 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                  <h3 class="text-lg font-bold">DJANGO PROJECT</h3>
+                  <p class="text-gray-500">This project aims to develop a scalable e-commerce platform using Django. The platform will allow users to browse products, add items to their shopping cart, checkout, and manage their orders. Key features will include a product catalog, shopping cart, user accounts, and an admin dashboard. The platform will be built using Django, Python, and a suitable frontend framework.</p>
+                </div>
+              </div>
+              </div>
+          </section>
+          <section class="p-4">
+            <h2 class="text-2xl font-bold mt-20">Contact Me</h2>
+            <form action="mailto:your_email@example.com" method="POST">
+              <div class="mb-4">
+                <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-lg" required placeholder="Enter your name">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-lg" required placeholder="fatuma@gmail.com">
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                <textarea id="message" name="message" class="w-full px-3 py-2 border rounded-lg" required placeholder="leave a message!!"></textarea>
+              </div>
+              <button type="submit" class="bg-gray-500 text-black px-4 py-2 rounded-lg hover:bg-blue-600">Send</button>
+            </form>
+          </section>
+          
+          <footer class="bg-gray-800 text-white p-4 mt-8">
+            <div class="flex justify-between">
+              <p>&copy; 2023 FATUMA YUSSUF ABDI</p>
+              <div class="flex space-x-4 ">
+                <a href="#" class="text-gray-300 hover:text-gray-500 ">
+                  <img src="facebook.webp" alt="Facebook" class="w-10 h-10">
+                </a>
+                <a href="#" class="text-gray-300 hover:text-gray-500 ">
+                  <img src="x.png" alt="Twitter" class="w-10 h-10">
+                </a>
+                <a href="#" class="text-gray-300 hover:text-gray-500 ">
+                  <img src="ig.jpeg" alt="Instagram" class="w-10 h-10">
+                </a>
+              </div>
+            </div>
+          </footer>
+
+      
+  </body>
+</html>
